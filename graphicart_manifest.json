@@ -1,0 +1,30 @@
+{
+  "$schema": "https://copilotstudio.microsoft.com/schemas/manifest/v1.2.json",
+  "name": "GraphicArt",
+  "version": "1.0.0",
+  "description": "Capacidad personalizada para generación de imágenes en Copilot Studio",
+  "publisher": {
+    "name": "Carlos",
+    "contact": "carlos@example.com"
+  },
+  "capabilityType": "Custom",
+  "actions": [
+    {
+      "id": "generateImage",
+      "type": "Generative",
+      "description": "Genera una imagen a partir de una descripción textual",
+      "inputs": {
+        "prompt": {
+          "type": "string",
+          "description": "Descripción de la imagen que se desea generar"
+        }
+      },
+      "outputs": {
+        "imageUrl": {
+          "type": "string",
+          "description": "URL de la imagen generada"
+        }
+      }
+    }
+  ]
+}
