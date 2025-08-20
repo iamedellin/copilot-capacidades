@@ -1,6 +1,6 @@
 {
     "$schema": "https://copilotstudio.microsoft.com/schema/agent-manifest/v1.2.json",
-    "name": "AgenteEjemplo",
+    "name": "DatIAMed",
     "description": "Agente con capacidad de generar imágenes.",
     "capabilities": [
         {
