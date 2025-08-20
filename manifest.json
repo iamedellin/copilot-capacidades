@@ -1,0 +1,14 @@
+{
+    "$schema": "https://copilotstudio.microsoft.com/schema/agent-manifest/v1.2.json",
+    "name": "AgenteEjemplo",
+    "description": "Agente con capacidad de generar imágenes.",
+    "capabilities": [
+        {
+            "name": "GraphicArt"
+        }
+    ],
+    "publisher": {
+        "name": "Carlos Julián Salguedo Pérez"
+    },
+    "version": "1.0.0"
+}
