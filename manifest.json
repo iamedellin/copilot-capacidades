@@ -1,14 +1,14 @@
 {
-    "$schema": "https://copilotstudio.microsoft.com/schema/agent-manifest/v1.2.json",
-    "name": "DatIAMed",
-    "description": "Agente con capacidad de generar imágenes.",
-    "capabilities": [
-        {
-            "name": "GraphicArt"
-        }
-    ],
-    "publisher": {
-        "name": "Carlos Julián Salguedo Pérez"
-    },
-    "version": "1.0.0"
+  "$schema": "https://copilotstudio.microsoft.com/schema/agent-manifest/v1.2.json",
+  "name": "DatIAMed",
+  "description": "Agente con capacidad de generar imágenes mediante instrucciones de texto.",
+  "version": "1.0.0",
+  "publisher": {
+    "name": "Carlos Julián Salguedo Pérez"
+  },
+  "capabilities": [
+    {
+      "name": "GraphicArt"
+    }
+  ]
 }
